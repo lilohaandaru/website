@@ -1,0 +1,40 @@
+.container img {
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    right: 0px;
+    border-radius: 5%;
+}
+li {
+    padding-left: 20px;
+    display:inline;
+    text-align:center;
+}
+#divElement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #0a0941;
+    color: white;
+    font-size: 15px;    
+}
+
+.container #poster {
+    position: relative;
+    opacity:0.6;
+    transition: .5s ease;
+}
+
+.container #poster:hover{
+    opacity:1;
+    transition: .5s ease;
+}
